@@ -1,0 +1,4 @@
+# Python dependencies not provided by ROS 2 apt packages
+openai>=1.40
+opencv-python
+numpy

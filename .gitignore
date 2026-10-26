@@ -1,0 +1,23 @@
+# secrets - never commit
+.env
+api
+*.key
+*.pem
+
+# ROS 2 / colcon build output
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+
+# misc
+*.zip
+*.bag
+*.db3
+/tmp/
+.DS_Store
